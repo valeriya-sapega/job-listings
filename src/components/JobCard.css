@@ -1,0 +1,82 @@
+.card {
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 15px 20px -5px #0d718226;
+    display: flex;
+    padding: 0 40px;
+    align-items: center;
+    justify-content: space-between;
+   margin: 24px 0;
+}
+
+.featured {
+    border-left: 5px solid #5CA5A5;
+}
+
+.job--section {
+    display: flex;
+    flex-direction: row;
+    margin: 32px 0;
+    align-items: center;
+    gap: 30px;
+}
+
+.company--text {
+    color: #5CA5A5;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.company--title {
+    margin-right: 15px;
+}
+
+.tag {
+    border-radius: 12px;
+    color: #FFF;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px; /* 100% */
+    letter-spacing: -0.108px;
+    text-transform: uppercase;
+    padding: 8px 8px 4px 8px;
+}
+
+.new--tag {
+    background: #5CA5A5;
+    margin-right: 8px;
+}
+.featured--tag {
+    background: #2B3939;
+}
+
+.job--titleDiv {
+    margin: 10px 0 7px;
+}
+
+.job--title {
+    color: #2B3939;
+font-size: 22px;
+font-weight: 700;
+line-height: 24px; /* 109.091% */
+margin: 10px 0 7px;
+}
+
+.job--addInfo {
+    color: #7C8F8F;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: -0.138px;
+}
+
+.job--skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
